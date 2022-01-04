@@ -1,0 +1,9 @@
+// 2021/12/31
+// 게시판 클래스 응용
+// ManageBoard클래스 (다형성 X)
+// 추가 (번호, 제목, 작성자 - Board객체로 해서)
+// 삭제 (번호로)전체 출력
+
+public class ManageBoard {
+
+}

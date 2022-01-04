@@ -1,0 +1,16 @@
+// 2021/12/31
+// 글 추가 및 삭제 테스트 
+
+public class TestManageBoard {
+
+	public static void main(String[] args) {
+		
+		public void addBoard(int bNum, String bSubject, String bName) {
+			boardList.add()
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,27 @@
+// 2021/12/31
+// 글 추가 및 삭제 테스트 
+
+public class TestManageBoard {
+
+	public static void main(String[] args) {
+		
+	ManageBoard board = new ManageBoard() ;
+	board.addBoard(new Board(1, "맑음" , "슬아"));
+	board.addBoard(new Board(2, "흐림" , "슬기"));	
+	board.addBoard(new Board(3, "폭우" , "슬비"));	
+	board.showAllBoard();
+
+	System.out.println("--------------------------------------");
+	
+	//
+	if(board.removeBoard()) {
+		
+	}
+	
+	
+	
+	}
+	
+	
+
+}

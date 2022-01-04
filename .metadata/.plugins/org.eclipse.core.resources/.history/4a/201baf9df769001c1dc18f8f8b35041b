@@ -1,0 +1,16 @@
+// 2021/12/31 
+// Person 클래스를 상속받아 어린이클래스 클래스 정의
+
+
+public class Children extends Person {
+	
+	//생성자
+	public Children (String personName) {
+		super (personName);
+	}
+	
+	public void doWork() {
+		System.out.println(getPersonName() + " 가 논다");
+	}
+
+}
